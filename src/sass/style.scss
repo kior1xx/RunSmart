@@ -1,5 +1,12 @@
 @import 'variables';
 * {
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'Roboto', sans-serif;
 }
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
 
