@@ -2,14 +2,6 @@
     background: url(../img/bg/benefits_bg.png) center (center/cover) no-repeat;
     padding-top: 70px;
     padding-bottom: 67px;
-    &__header {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        color: #0D0D0D;
-        text-align: center;
-    }
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -23,7 +15,7 @@
         padding-top: 60px;
         width: 270px;
     }
-    &__title {
+    &__subtitle {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -46,3 +38,4 @@
         }
     }
 }
+
