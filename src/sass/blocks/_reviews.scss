@@ -1,0 +1,37 @@
+.reviews {
+    &__customer {
+        display: flex;
+        margin-top: 60px;
+        &__img {
+            margin-right: 60px;
+            height: 169px;
+            width: 169px;
+        }
+        &__info {
+            max-width: 680px;
+        }
+        &__name {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            color: #0D0D0D;
+        }
+        &__marathon {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+            margin-bottom: 10px;
+        }
+        &__descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            color: #0D0D0D;
+        }
+    }
+}
