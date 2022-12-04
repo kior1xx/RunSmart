@@ -49,5 +49,24 @@ $(document).ready(function(){
             $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
             $('.overlay, #order').fadeIn('slow');
         });
-      })
+      });
+
+      function validateForms (form){
+        $(form).validate({
+          messages: {
+            name: "Пожалуйста,введите своё имя",
+            phone: "Пожалуйста,введите свой номер телефона",
+            email:{
+              required: "пожалуйста,введите свою почту",
+              email: "Введён некоректный почтовый адрес"
+            }
+          }
+        });
+      };
+
+      validateForms('#consultation-form');
+      validateForms('#consultation form');
+      validateForms('#order form');
+
+      $('input[name=phone]').mask("+7 (999) 999-99-99");
 });
