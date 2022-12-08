@@ -8,6 +8,7 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
             settings: {
+                variableWidth: true,
                 dots: true,
                 arrows: false
                 }
